@@ -38,6 +38,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_screenutil:
   webview_flutter:
+  hidden_drawer_menu: ^3.0.1
+
+
 
 
 

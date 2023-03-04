@@ -37,13 +37,6 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFFf7f7f7),
-      appBar: AppCustomAppBar(
-        onPressed:(){
-
-
-        } ,
-      ),
-
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: ListView(

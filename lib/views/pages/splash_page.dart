@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:assignment_task/views/pages/home_page.dart';
 import 'package:assignment_task/views/pages/landing_page.dart';
+import 'package:assignment_task/views/pages/menu_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -26,7 +27,7 @@ class _SplashPageState extends State<SplashPage> {
           Duration(seconds: 5),
               () {
 
-            Navigator.pushNamed(context, HomePage.routeName);
+            Navigator.pushNamed(context, MenuPage.routeName);
           });
     });
   }

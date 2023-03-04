@@ -1,5 +1,6 @@
 import 'package:assignment_task/views/pages/home_page.dart';
 import 'package:assignment_task/views/pages/landing_page.dart';
+import 'package:assignment_task/views/pages/menu_page.dart';
 import 'package:assignment_task/views/pages/product_details_page.dart';
 import 'package:assignment_task/views/pages/splash_page.dart';
 import 'package:flutter/material.dart';
@@ -40,7 +41,8 @@ class MyApp extends StatelessWidget {
           SplashPage.routeName:(context)=>SplashPage(),
           LandingPage.routeName:(context)=>LandingPage(),
           HomePage.routeName:(context)=>HomePage(),
-          ProductDetailPage.routeName:(context)=>ProductDetailPage()
+          ProductDetailPage.routeName:(context)=>ProductDetailPage(),
+          MenuPage.routeName:(context)=>MenuPage(),
 
         },
       ),
