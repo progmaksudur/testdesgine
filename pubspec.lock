@@ -69,11 +69,25 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "5.6.1"
+  flutter_statusbarcolor_ns:
+    dependency: "direct main"
+    description:
+      name: flutter_statusbarcolor_ns
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_zoom_drawer:
+    dependency: "direct main"
+    description:
+      name: flutter_zoom_drawer
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.3.1+1"
   hidden_drawer_menu:
     dependency: "direct main"
     description:

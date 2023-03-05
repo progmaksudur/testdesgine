@@ -27,7 +27,7 @@ class _SplashPageState extends State<SplashPage> {
           Duration(seconds: 5),
               () {
 
-            Navigator.pushNamed(context, MenuPage.routeName);
+            Navigator.pushNamed(context, LandingPage.routeName);
           });
     });
   }

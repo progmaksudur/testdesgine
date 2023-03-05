@@ -39,6 +39,8 @@ dependencies:
   flutter_screenutil:
   webview_flutter:
   hidden_drawer_menu: ^3.0.1
+  flutter_zoom_drawer: ^2.3.1
+  flutter_statusbarcolor_ns:
 
 
 

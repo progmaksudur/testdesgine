@@ -7,6 +7,7 @@ import 'package:assignment_task/views/widgets/app_icon_selected_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 
 
 class HomePage extends StatefulWidget {
@@ -36,6 +37,15 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppCustomAppBar(
+        onPressed: (){
+          if (ZoomDrawer.of(context)!.isOpen()) {
+            ZoomDrawer.of(context)!.close();
+          } else {
+            ZoomDrawer.of(context)!.open();
+          }
+        },
+      ),
       backgroundColor: Color(0xFFf7f7f7),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
